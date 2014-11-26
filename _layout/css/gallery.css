@@ -1,0 +1,17 @@
+.thumbnails img {
+height: 50px;
+border: 1px solid #555;
+padding: 1px;
+margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+border: 1px solid #00ccff;
+cursor:pointer;
+}
+
+.preview img {
+border: 1px solid #444;
+padding: 1px;
+height: 300px;
+}
