@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
-    
-    
-	<title> O nama :: HEINTEL </title>
-	<meta name="description" content=" HEINTEL, Srbija, Medicina, Beograd, Mamasafe ">
+
+	<title> Portfolio :: HEINTEL </title>
+	<meta name="description" content=" add description  ... ">
     
     <!-- /// Favicons ////////  -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="favicon.png">
-
 
 	<!-- /// Template CSS ////////  -->
     <link rel="stylesheet" href="_layout/css/base.css">
@@ -43,8 +40,8 @@
     <!-- /// Modernizr ////////  -->
     <script src="_layout/js/modernizr-2.6.2.min.js"></script>
  
-	<link rel="stylesheet" type="text/css" href="_layout/js/switcher/switcher.css">
- 
+<link rel="stylesheet" type="text/css" href="_layout/js/switcher/switcher.css">
+
 </head>
 <body  ng-app="myApp">
 
@@ -85,13 +82,13 @@
 						<li>
                         	<a href="profil.html">PROFIL</a>
 						</li>
-						<li>
+						<li  class="current">
                         	<a href="portfolio.html">PORTFOLIO</a>
 						</li>
 						<li>
                         	<a href="usluge.html">USLUGE</a>
 						</li>
-						<li  class="current">
+						<li>
                         	<a href="onama.html">O NAMA</a>
 						</li>
 						<li>
@@ -107,113 +104,84 @@
 		</div><!-- end #header -->
 		<div id="content">
 		<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-			
+
             <div id="page-header">
             	
                 <div class="row">
                 	<div class="span12">
                     	
-                        <h2>O nama</h2>
+                        <h2>Portfolio</h2>
                         
                     </div><!-- end .span12 -->
                 </div><!-- end .row -->
                 
             </div><!-- end #page-header -->
             
+            <!--odavde sam uzeo-->
+<!-- moj proizvod .row -->
+			<div class="row">
+				<div class="span4">
+				&nbsp;&nbsp;
+				</div>
+				<div class="span4">
+					<span id = "gallery" visible="false"></span>
+					<img ng-hide="myValue" src="_layout/images/ajax-loader.gif"></img>
+				</div>
+				<div class="span4">
+				&nbsp;&nbsp;
+				</div>
+			</div>
+			<div ng-show="myValue" class="row" ng-repeat="p in getNumber(number) track by $index">
+			{{setRowValue($index)}}
+				<div class="span3" ng-repeat="pp in portfolio | slicce:rowValue:selected | orderBy:pp.id">
+					<div class="portfolio-item">
+                        <div class="portfolio-item-preview">					
+                            <a href="#">
+                                <img ng-src="{{pp.img_src}}" alt="">
+                            </a>  
+                            <div class="portfolio-item-overlay">
+                                <div class="portfolio-item-overlay-actions">   
+                                    <a class="portfolio-item-link" href="{{pp.img_src}}" title="zoom" download>
+                                        <i class="ifc-zoom_in"></i>
+                                    </a>                               
+                                </div><!-- end .portfolio-item-overlay-actions -->
+                                <div class="portfolio-item-description hidden-tablet">
+                                    <h4 class="text-uppercase">{{pp.title}}</h4>
+                                </div><!-- end .portfolio-item-description -->
+                            </div><!-- end .portfolio-item-overlay -->
+                        </div><!-- end .portfolio-item-preview -->
+                    </div><!-- end .portfolio-item -->
+				</div>
+			</div>
+			</div>
+			<!--////////////////////////////////////////--> 		
             <div class="row">
             	<div class="span12">
-                    
+                	<ul class="pagination fixed">
+                    	<li ng-class="{current : isSelected($index+1)}" ng-repeat="p in getPagesNumber() track by $index">
+                        	<a href="" ng-click="setPage($index+1 ,$event)">{{$index+1}}</a>
+                        </li>   
+                    </ul>
                 </div><!-- end .span12 -->
             </div><!-- end .row -->
 
-            <div class="row">
-                <div class="span8">
-				<h3 class="headline">
-                    	<span>Heintel - Srbija</span>
-                    </h3>
-					<blockquote style="border-left-color:#656d7d;">
-                    <p>Heintel d.o.o. Beograd je 2013.godine osnovano kao preduzeće sa ciljem poslovanja u oblasti uvoza, izvoza i distribucije medicinskih sredstava i medicinske opreme.</p>
-					<p>Kada je u pitanju promet medicinskim sredstvima podršku nam pruža Heintel Austrija koja važi za lidera na teritoriji čitave Evrope.  Osnovna delatnost Heintel-a bazirana je na polju medicine i farmacije.
-					HEINTEL je od 1918.godine jedna od najnaprednijih kompanija u uvođenju novih ideja i inovativnih medicinskih proizvoda za dobrobit pacijenta.</p>
-					<p>Na obostrano zadovoljstvo negujemo poslovnu saradnju sa našim kupcima i korisnicima naših proizvoda iz svih oblasti medicine. Heintel učestvuje u kontinuiranoj edukaciji medicinskog osoblja i u zdravstveno-vaspitnom radu sa pacijentima.</p>
-					Heintel Srbija čini tim isključivo profesionalnih visoko obrazovanih zaposlenih, različitih struka (medicina, farmacija, ekonomija, elektrotehnika, pravo…).
-					Naš kvalitetan i bezbedan proizvod nesumnjivo vodi ka visokoj efikasnosti i zadovoljstvu krajnjeg korisnika.
-					</p> 
-                    <blockquote>
-                </div><!-- end .span8 -->
-				<br><br><br><br><br><br>
-				<div class="span4">
-                	
-                    <div class="portfolio-item">
-                    	
-                        <img src="_content/index/logo/hlogo.png" alt="">
-
-                        
-                    </div><!-- end .team-member -->
-                    
-                </div><!-- end .span4 -->
-            </div><!-- end .row -->
-			                        <img src="_content/single-service-2/slider/1920x425-1.png" alt="">
-                        <div class="row">
-                        	<div class="span12">
-                            	
-                                <div class="slidetext text-center" style="bottom:80px;left:20%">
-                                	
-                                    <h1>Pritisnite <strong>DUGME</strong></h1>
-                                    
-                                   <p>Pogledajte našu video prezentaciju</p>
-                                    
-                                    <br>
-                                    
-                                    <p>
-                                    	<a class="magnificPopup-video" href="https://www.youtube.com/watch?v=1uHPC7c5dg8"><img src="_layout/images/play-button.png" alt=""></a>
-                                    </p>
-                                    
-                                </div><!-- end .slidetext -->
-                                
-                            </div><!-- end .span12 -->
-                        </div><!-- end .row -->
-            <div class="row">
-
-                <div class="span12">
-				<h3 class="headline-2">
-                    	<span>Heintel - Austrija</span>
-                    </h3>
-							<blockquote style="border-left-color:#656d7d;">
-<p>Heintel je vodeća kompanija za inovativne i vrhunske medicinske proizvode. 
-Naš glavni cilj još davne 1918.godine je bio da odgovorimo na zahtevne potrebe klijenata za vrhunskom medicinskom opremom.</p>
-<p>Kako je firma osnovana u Austriji, sama organizacija poslovanja i mentalitet podrazumevaju najpreciznije načine rada  uz istovremeno neprekidno osluškivanje zahteva tržišta.
-Savremeni uslovi za rad kao i nova tehnološka rešenja, omogućavaju nam da budemo prepoznati po specifičnim proizvodima koje nudimo.
-Od samog početka, naša kompanija se usredsredila na farmaceutska tržišta Srednje i Istočne Evrope a poznati vodeći proizvođači na svetskom tržištu su naši dugoročni partneri.</p>
-<p>Kompanija Heintel je vodeća u oblasti kompletne bolničke nege. Mi poslujemo u skladu sa potrebama naših kupaca i njihovih pacijenata.
-Naši zaposleni su najveća vrednost naše kompanije. Naš profesionalni tim nudi usluge na najvišem mogućem nivou.</p>
-<p>Imamo na umu samo jedan cilj: želimo da pomažemo sa kvalitetnim, bezbednim I efikasnim proizvodima.
-Nasi zaposleni zajedno sa partnerima rade na unapređenju života pacijenata, pokušavajući da dostignu globalni nivo.</p>
-							<blockquote>
-                </div><!-- end .span8 -->
-				
-            </div><!-- end .row -->
-            <br><br>
-            
-            
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 		</div><!-- end #content -->
 		<div id="footer">
 			<footer></footer>
-		</div><!-- end #footer -->		
+		</div><!-- end #footer -->
 	</div><!-- end #wrap -->
-
 
     <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
-    	<!-- /// AngularJS ////////  -->
+	<!-- /// AngularJS ////////  -->
 	<script src="_layout/js/ng/angular.min.js"></script>	
 	<script src="_layout/js/ng/app.js"></script>
 	<!--////////////////////////////////////////-->
     <!-- /// ViewPort ////////  -->
 	<script src="_layout/js/viewport/jquery.viewport.js"></script>
-
+    
     <!-- /// Easing ////////  -->
 	<script src="_layout/js/easing/jquery.easing.1.3.js"></script>
 
@@ -237,7 +205,6 @@ Nasi zaposleni zajedno sa partnerima rade na unapređenju života pacijenata, po
    	<!-- /// Magnific Popup ////////  -->
 	<script src="_layout/js/magnificpopup/jquery.magnific-popup.min.js"></script>
     
-   
     <!-- /// Parallax ////////  -->
 	<script src="_layout/js/parallax/jquery.parallax.min.js"></script>
 
