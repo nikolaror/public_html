@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
-$pageName="Kontakt"; 
+$pageName="O nama"; 
 $category=''; 
-$menuItem="kontakt"; 
+$menuItem="o-nama"; 
 $product='';
 $companyName="Heintel";
 ?>
@@ -63,7 +63,7 @@ $companyName="Heintel";
 			<!-- /// product gallery CSS ////////  -->
 	<link rel="stylesheet" href="_layout/css/gallery.css">
 </head>
-<body ng-app="myApp">
+<body  ng-app="myApp">
 
 	<!--[if lte IE 8]>
         <p class="browser-update">
@@ -73,7 +73,7 @@ $companyName="Heintel";
 		</p>
     <![endif]-->
  
-	<div id="wrap">
+	<div id="wrap"  ng-controller="portfolioCtrl">
 	<?php include 'template/h.php';?><!--header-->
 		<div id="content">
 		<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -91,146 +91,99 @@ $companyName="Heintel";
             </div><!-- end #page-header -->
             
             <div class="row">
-            	<div class="span3">
-                	
-                    <div class="icon-box-1">
-                               <h3>Budimo u kontaktu</h3>                                      	                     
-<p>Na ovom mestu možete pronaći kontakt podatke naših stručnih saradnika, koji će Vam sa zadovoljstvom pomoći savetom, svojim iskustvom, stručno-tehničkim podacima i ostalim informacijama kojima raspolažu, a Vama će biti od koristi.</p>
-                    
-                    <address>
-					<strong>Mi se nalazimo:</strong><br>
-                        Partizanske avijacije 12/9<br>
-                        11070 Beograd<br>
-						Srbija<br>
-                        <br>
-                        Tel/fax 011-21-66-313<br>
-                        mail office@heintel.rs
-                    </address>
-                </div><!-- end .icon-box-1 -->  
-                </div><!-- end .span3 -->
-                <div class="span9">
-                
-                	<h3>Pošaljite nam poruku</h3>
-                    
-                    <br>
-                	
-                    <form class="fixed" id="contact-form"  name="contact-form" method="post" action="/_layout/php/send.php"> 
-                        <fieldset>
-                            
-                            <div id="formstatus"></div>
-                         	
-                            <div class="row">
-                            	<div class="span3">
-                            		
-                                    <input id="name" type="text" name="name" value="" placeholder="Ime">
-								
-                                </div><!-- edd .span3 --> 
-                            	<div class="span3">
-                            	
-                                	<input id="email" type="text" name="email" value="" placeholder="E-mail">
-                            	
-                                </div><!-- edd .span3 --> 
-                                <div class="span3">
-                            	
-                                	<input id="subject" type="text" name="subject" value="" placeholder="Tematika" >
-                            	
-                                </div><!-- edd .span3 --> 
-                            </div><!-- end .row -->
-                            
-                            <textarea class="span9" id="message" name="message" rows="10" cols="25" placeholder="Vaša poruka"></textarea>
-                            
-                            <input class="btn btn-green-dark float-right" id="submit" type="submit" name="submit" value="Pošalji">
-                               
-                    	</fieldset>
-                    </form>
-                    
-                </div><!-- end .span9 -->
-            </div><!-- end .row -->
-            <div class="row">
-            	<div class="span4">
-                    <address>
-                    	<strong>Direktor</strong><br>
-						Knežević Veselin<br>
-                        mail veselin.knezevic@heintel.rs<br>
-                        tel 064-31-58-798<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Finansijski direktor</strong><br>
-                        Grujičić Ivan<br>
-                        mail ivan.grujicic@heintel.rs<br>
-                        tel 063-800-22-61<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Tehnički direktor</strong><br>
-                        Udovičić Sanja<br>
-                        mail sanja.udovicic@heintel.rs<br>
-                        tel 060-05-54-926<br>
-                    </address>
-                </div><!-- end .span4 -->
-            </div><!-- end .row -->
-            <div class="row">
             	<div class="span12">
-                	
-                    <!--div class="social-media text-center" style="margin-bottom:-20px;">
-                            
-                        <a href="#" class="facebook-icon social-icon">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="twitter-icon social-icon">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="pinterest-icon social-icon">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-                        <a href="#" class="googleplus-icon social-icon">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        
-                    </div-->
                     
                 </div><!-- end .span12 -->
             </div><!-- end .row -->
-            
-            <!--div class="google-map" style="margin-bottom:-80px;">
-    
-                <div class="map" id="google-map"></div>
-                
-                <div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-                <div class="overlay right"></div>
-                
-            </div><!-- end .google-map -->
-			<div class="google-map" style="margin-bottom:-80px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.987818820483!2d20.387129199999997!3d44.82181279999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6588952b2bc9%3A0x462c3326d7fada64!2zMTIg0J_QsNGA0YLQuNC30LDQvdGB0LrQtSDQsNCy0LjRmNCw0YbQuNGY0LUsINCR0LXQvtCz0YDQsNC0IDExMDAw!5e0!3m2!1ssr!2srs!4v1414490602725" width="1349" height="450" frameborder="0" style="border:0"></iframe>
 
-				<div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-		                <div class="overlay right"></div>
-			            </div><!-- end .google-map -->
+            <div class="row">
+                <div class="span8">
+				<h3 class="headline">
+                    	<span>Heintel - Srbija</span>
+                    </h3>
+					<blockquote style="border-left-color:#656d7d;">
+                    <p>Heintel d.o.o. Beograd je 2013.godine osnovano kao preduzeće sa ciljem poslovanja u oblasti uvoza, izvoza i distribucije medicinskih sredstava i medicinske opreme.</p>
+					<p>Kada je u pitanju promet medicinskim sredstvima podršku nam pruža Heintel Austrija koja važi za lidera na teritoriji čitave Evrope.  Osnovna delatnost Heintel-a bazirana je na polju medicine i farmacije.
+					HEINTEL je od 1918.godine jedna od najnaprednijih kompanija u uvođenju novih ideja i inovativnih medicinskih proizvoda za dobrobit pacijenta.</p>
+					<p>Na obostrano zadovoljstvo negujemo poslovnu saradnju sa našim kupcima i korisnicima naših proizvoda iz svih oblasti medicine. Heintel učestvuje u kontinuiranoj edukaciji medicinskog osoblja i u zdravstveno-vaspitnom radu sa pacijentima.</p>
+					Heintel Srbija čini tim isključivo profesionalnih visoko obrazovanih zaposlenih, različitih struka (medicina, farmacija, ekonomija, elektrotehnika, pravo…).
+					Naš kvalitetan i bezbedan proizvod nesumnjivo vodi ka visokoj efikasnosti i zadovoljstvu krajnjeg korisnika.
+					</p> 
+                    <blockquote>
+                </div><!-- end .span8 -->
+				<br><br><br><br><br><br>
+				<div class="span4">
+                	
+                    <div class="portfolio-item">
+                    	
+                        <img src="_content/index/logo/hlogo.png" alt="">
+
+                        
+                    </div><!-- end .team-member -->
+                    
+                </div><!-- end .span4 -->
+            </div><!-- end .row -->
+			                        <img src="_content/single-service-2/slider/1920x425-1.png" alt="">
+                        <div class="row">
+                        	<div class="span12">
+                            	
+                                <div class="slidetext text-center" style="bottom:80px;left:20%">
+                                	
+                                    <h1>Pritisnite <strong>DUGME</strong></h1>
+                                    
+                                   <p>Pogledajte našu video prezentaciju</p>
+                                    
+                                    <br>
+                                    
+                                    <p>
+                                    	<a class="magnificPopup-video" href="https://www.youtube.com/watch?v=1uHPC7c5dg8"><img src="_layout/images/play-button.png" alt=""></a>
+                                    </p>
+                                    
+                                </div><!-- end .slidetext -->
+                                
+                            </div><!-- end .span12 -->
+                        </div><!-- end .row -->
+            <div class="row">
+
+                <div class="span12">
+				<h3 class="headline-2">
+                    	<span>Heintel - Austrija</span>
+                    </h3>
+							<blockquote style="border-left-color:#656d7d;">
+<p>Heintel je vodeća kompanija za inovativne i vrhunske medicinske proizvode. 
+Naš glavni cilj još davne 1918.godine je bio da odgovorimo na zahtevne potrebe klijenata za vrhunskom medicinskom opremom.</p>
+<p>Kako je firma osnovana u Austriji, sama organizacija poslovanja i mentalitet podrazumevaju najpreciznije načine rada  uz istovremeno neprekidno osluškivanje zahteva tržišta.
+Savremeni uslovi za rad kao i nova tehnološka rešenja, omogućavaju nam da budemo prepoznati po specifičnim proizvodima koje nudimo.
+Od samog početka, naša kompanija se usredsredila na farmaceutska tržišta Srednje i Istočne Evrope a poznati vodeći proizvođači na svetskom tržištu su naši dugoročni partneri.</p>
+<p>Kompanija Heintel je vodeća u oblasti kompletne bolničke nege. Mi poslujemo u skladu sa potrebama naših kupaca i njihovih pacijenata.
+Naši zaposleni su najveća vrednost naše kompanije. Naš profesionalni tim nudi usluge na najvišem mogućem nivou.</p>
+<p>Imamo na umu samo jedan cilj: želimo da pomažemo sa kvalitetnim, bezbednim I efikasnim proizvodima.
+Nasi zaposleni zajedno sa partnerima rade na unapređenju života pacijenata, pokušavajući da dostignu globalni nivo.</p>
+							<blockquote>
+                </div><!-- end .span8 -->
+				
+            </div><!-- end .row -->
+            <br><br>
+            
+            
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<br><br>
+
 		</div><!-- end #content -->
 		<div id="footer">
 			<footer></footer>
-		</div><!-- end #footer -->
+		</div><!-- end #footer -->		
 	</div><!-- end #wrap -->
 
-			<!-- /// AngularJS ////////  -->
+
+    <!-- /// jQuery ////////  -->
+	<script src="_layout/js/jquery-2.1.0.min.js"></script>
+    	<!-- /// AngularJS ////////  -->
 	<script src="_layout/js/ng/angular.min.js"></script>	
 	<script src="_layout/js/ng/app.js"></script>
 	<!--////////////////////////////////////////-->
-    <!-- /// jQuery ////////  -->
-	<script src="_layout/js/jquery-2.1.0.min.js"></script>
-  
     <!-- /// ViewPort ////////  -->
 	<script src="_layout/js/viewport/jquery.viewport.js"></script>
-    
+
     <!-- /// Easing ////////  -->
 	<script src="_layout/js/easing/jquery.easing.1.3.js"></script>
 

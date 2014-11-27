@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <?php
-$pageName="Kontakt"; 
-$category=''; 
-$menuItem="kontakt"; 
-$product='';
+$pageName="Rukavice"; 
+$menuItem="rukavice"; 
+$product="hirurske-synth";
 $companyName="Heintel";
+$crumb1="portfolio";
+$crumb1url="portfolio";
+$productName="Hirurške HSO Synth";
+$category="Rukavice";
 ?>
 <html class="no-js">
 <head>
@@ -51,6 +54,7 @@ $companyName="Heintel";
     <script src="_layout/js/modernizr-2.6.2.min.js"></script>
  
 
+	
 	    <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
 	    <!-- /// bxSlider ////////  -->
@@ -76,6 +80,7 @@ $companyName="Heintel";
 	<div id="wrap">
 	<?php include 'template/h.php';?><!--header-->
 		<div id="content">
+		
 		<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			
             <div id="page-header">
@@ -83,7 +88,7 @@ $companyName="Heintel";
                 <div class="row">
                 	<div class="span12">
                     	
-                        <h2><?php echo $pageName;?></h2>
+                        <h2><a href="<?php echo $crumb1url.'.php';?>"><?php echo $crumb1;?></a> / <a href="<?php echo $category.'.php';?>"><?php echo $category;?></a> / <?php echo $productName;?></h2>
                         
                     </div><!-- end .span12 -->
                 </div><!-- end .row -->
@@ -91,140 +96,78 @@ $companyName="Heintel";
             </div><!-- end #page-header -->
             
             <div class="row">
-            	<div class="span3">
+            	<div class="span6">
                 	
-                    <div class="icon-box-1">
-                               <h3>Budimo u kontaktu</h3>                                      	                     
-<p>Na ovom mestu možete pronaći kontakt podatke naših stručnih saradnika, koji će Vam sa zadovoljstvom pomoći savetom, svojim iskustvom, stručno-tehničkim podacima i ostalim informacijama kojima raspolažu, a Vama će biti od koristi.</p>
-                    
-                    <address>
-					<strong>Mi se nalazimo:</strong><br>
-                        Partizanske avijacije 12/9<br>
-                        11070 Beograd<br>
-						Srbija<br>
-                        <br>
-                        Tel/fax 011-21-66-313<br>
-                        mail office@heintel.rs
-                    </address>
-                </div><!-- end .icon-box-1 -->  
-                </div><!-- end .span3 -->
-                <div class="span9">
-                
-                	<h3>Pošaljite nam poruku</h3>
-                    
-                    <br>
-                	
-                    <form class="fixed" id="contact-form"  name="contact-form" method="post" action="/_layout/php/send.php"> 
-                        <fieldset>
-                            
-                            <div id="formstatus"></div>
-                         	
-                            <div class="row">
-                            	<div class="span3">
-                            		
-                                    <input id="name" type="text" name="name" value="" placeholder="Ime">
-								
-                                </div><!-- edd .span3 --> 
-                            	<div class="span3">
-                            	
-                                	<input id="email" type="text" name="email" value="" placeholder="E-mail">
-                            	
-                                </div><!-- edd .span3 --> 
-                                <div class="span3">
-                            	
-                                	<input id="subject" type="text" name="subject" value="" placeholder="Tematika" >
-                            	
-                                </div><!-- edd .span3 --> 
-                            </div><!-- end .row -->
-                            
-                            <textarea class="span9" id="message" name="message" rows="10" cols="25" placeholder="Vaša poruka"></textarea>
-                            
-                            <input class="btn btn-green-dark float-right" id="submit" type="submit" name="submit" value="Pošalji">
-                               
-                    	</fieldset>
-                    </form>
-                    
-                </div><!-- end .span9 -->
-            </div><!-- end .row -->
-            <div class="row">
-            	<div class="span4">
-                    <address>
-                    	<strong>Direktor</strong><br>
-						Knežević Veselin<br>
-                        mail veselin.knezevic@heintel.rs<br>
-                        tel 064-31-58-798<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Finansijski direktor</strong><br>
-                        Grujičić Ivan<br>
-                        mail ivan.grujicic@heintel.rs<br>
-                        tel 063-800-22-61<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Tehnički direktor</strong><br>
-                        Udovičić Sanja<br>
-                        mail sanja.udovicic@heintel.rs<br>
-                        tel 060-05-54-926<br>
-                    </address>
-                </div><!-- end .span4 -->
-            </div><!-- end .row -->
-            <div class="row">
-            	<div class="span12">
-                	
-                    <!--div class="social-media text-center" style="margin-bottom:-20px;">
-                            
-                        <a href="#" class="facebook-icon social-icon">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="twitter-icon social-icon">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="pinterest-icon social-icon">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-                        <a href="#" class="googleplus-icon social-icon">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        
-                    </div-->
-                    
-                </div><!-- end .span12 -->
-            </div><!-- end .row -->
-            
-            <!--div class="google-map" style="margin-bottom:-80px;">
-    
-                <div class="map" id="google-map"></div>
-                
-                <div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-                <div class="overlay right"></div>
-                
-            </div><!-- end .google-map -->
-			<div class="google-map" style="margin-bottom:-80px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.987818820483!2d20.387129199999997!3d44.82181279999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6588952b2bc9%3A0x462c3326d7fada64!2zMTIg0J_QsNGA0YLQuNC30LDQvdGB0LrQtSDQsNCy0LjRmNCw0YbQuNGY0LUsINCR0LXQvtCz0YDQsNC0IDExMDAw!5e0!3m2!1ssr!2srs!4v1414490602725" width="1349" height="450" frameborder="0" style="border:0"></iframe>
+                	<!--img class="responsive-img" src="_content/portfolio/460x460.png" alt=""-->
+					<div id = "imagecontainer">
+						<div class="gallery" align="center">
+						<div class="preview" align="center">
+							<img name="preview"  src="_content/portfolio/rukavice1.png" alt=""/>
+						</div>
+						<div class="thumbnails">
+							<img onmouseover="preview.src=img1.src" name="img1" src="_content/portfolio/rukavice1.png" alt="" />
+							<img onmouseover="preview.src=img2.src" name="img2" src="_content/portfolio/rukavice2.png" alt="" />
+							<img onmouseover="preview.src=img3.src" name="img3" src="_content/portfolio/rukavice3.png" alt="" />
+							<img onmouseover="preview.src=img4.src" name="img4" src="_content/portfolio/rukavice4.png" alt="" />
+							<img onmouseover="preview.src=img5.src" name="img5" src="_content/portfolio/rukavice5.png" alt="" />
 
-				<div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-		                <div class="overlay right"></div>
-			            </div><!-- end .google-map -->
+						</div>
+						</div> <!-- Close the gallery div -->
+						</div>
+                    
+                </div><!-- end .span6 -->
+                <div class="span6">
+                	
+                	<div class="icon-box-1">
+                                         
+                            <h2>HSO Synth - Sintetičke, Latex-free hirurške rukavice</h2>
+                    </div><!-- end .icon-box-1 -->
+<p>HSO Synth hirurške rukavice su „Latex-alergija ekspert“ u odnosu na ostale HSO rukavice. Ne sadrže ni proteine latexa niti puder. 
+ HSO Synth su izrađene od sintetičkog materijala Polychloroprena</p><p>
+Kod hirurških rukavica nije samo alergija na latex alternativa. Nakon proizvodnje, svaka rukavica se testira na kvalitet, sterilnost, otpornost, čime obezbeđujemo kompletnu sigurnost korisnika</p> 
+
+
+                </div><!-- end .span6 -->
+            </div><!-- end .row -->
+<!--tab-->
+
+
+            <br/>
+            <div class="row">
+			                	<div class="icon-box-1">
+                                    
+                        <i class="ifc-copy"><a href="#"></a></i>
+                        
+                        <div class="icon-box-content">
+                            
+                            <p>Preuzmite kompletan katalog <a href="_content/pfd-katalog/HSO_rukavice_i_maske.pdf" download="_content/pfd-katalog/HSO_rukavice_i_maske.pdf">ovde</a></p>
+                        
+                        </div><!-- end .icon-box-content -->
+                        
+                    </div><!-- end .icon-box-1 -->
+			 </div>
+
+
+            
+            
+            
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<br><br>
+
 		</div><!-- end #content -->
-		<div id="footer">
+				<div id="footer">	
 			<footer></footer>
 		</div><!-- end #footer -->
+		
 	</div><!-- end #wrap -->
 
-			<!-- /// AngularJS ////////  -->
-	<script src="_layout/js/ng/angular.min.js"></script>	
+
+
+  	<!-- /// AngularJS ////////  -->
+	<script src="_layout/js/ng/angular.min.js"></script>
 	<script src="_layout/js/ng/app.js"></script>
 	<!--////////////////////////////////////////-->
+
+
     <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
   

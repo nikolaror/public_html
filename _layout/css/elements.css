@@ -1437,7 +1437,7 @@
 				box-sizing: border-box;
 		padding: 10px 20px; 	
 		margin-bottom: -1px; 
-		background-color: #56c673;
+		background-color: #f29ea2;
 		color: #fff !important;
 		text-decoration: none;
 		text-align: center;
@@ -1449,7 +1449,7 @@
 	
 	.tabs-menu li.active a {
 		border-bottom-color: #fff; 
-		background-color: #6fd589;
+		background-color: #ed868b;
 		color: #fff; 
 	}
 	

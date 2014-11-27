@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
-$pageName="Kontakt"; 
+$pageName="Usluge"; 
 $category=''; 
-$menuItem="kontakt"; 
+$menuItem="usluge"; 
 $product='';
 $companyName="Heintel";
 ?>
@@ -33,7 +33,7 @@ $companyName="Heintel";
     <link rel="stylesheet" href="_layout/js/revolutionslider/css/custom.css">
     <link rel="stylesheet" href="_layout/js/bxslider/jquery.bxslider.css">
     <link rel="stylesheet" href="_layout/js/magnificpopup/magnific-popup.css">
-    
+    <link rel="stylesheet" href="_layout/js/skillsdiagram/css/default.css">
     <!-- /// Google Fonts ////////  -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     
@@ -49,7 +49,6 @@ $companyName="Heintel";
 
     <!-- /// Modernizr ////////  -->
     <script src="_layout/js/modernizr-2.6.2.min.js"></script>
- 
 
 	    <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
@@ -76,6 +75,7 @@ $companyName="Heintel";
 	<div id="wrap">
 	<?php include 'template/h.php';?><!--header-->
 		<div id="content">
+		
 		<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			
             <div id="page-header">
@@ -91,149 +91,112 @@ $companyName="Heintel";
             </div><!-- end #page-header -->
             
             <div class="row">
-            	<div class="span3">
-                	
-                    <div class="icon-box-1">
-                               <h3>Budimo u kontaktu</h3>                                      	                     
-<p>Na ovom mestu možete pronaći kontakt podatke naših stručnih saradnika, koji će Vam sa zadovoljstvom pomoći savetom, svojim iskustvom, stručno-tehničkim podacima i ostalim informacijama kojima raspolažu, a Vama će biti od koristi.</p>
-                    
-                    <address>
-					<strong>Mi se nalazimo:</strong><br>
-                        Partizanske avijacije 12/9<br>
-                        11070 Beograd<br>
-						Srbija<br>
-                        <br>
-                        Tel/fax 011-21-66-313<br>
-                        mail office@heintel.rs
-                    </address>
-                </div><!-- end .icon-box-1 -->  
-                </div><!-- end .span3 -->
-                <div class="span9">
-                
-                	<h3>Pošaljite nam poruku</h3>
-                    
-                    <br>
-                	
-                    <form class="fixed" id="contact-form"  name="contact-form" method="post" action="/_layout/php/send.php"> 
-                        <fieldset>
-                            
-                            <div id="formstatus"></div>
-                         	
-                            <div class="row">
-                            	<div class="span3">
-                            		
-                                    <input id="name" type="text" name="name" value="" placeholder="Ime">
-								
-                                </div><!-- edd .span3 --> 
-                            	<div class="span3">
-                            	
-                                	<input id="email" type="text" name="email" value="" placeholder="E-mail">
-                            	
-                                </div><!-- edd .span3 --> 
-                                <div class="span3">
-                            	
-                                	<input id="subject" type="text" name="subject" value="" placeholder="Tematika" >
-                            	
-                                </div><!-- edd .span3 --> 
-                            </div><!-- end .row -->
-                            
-                            <textarea class="span9" id="message" name="message" rows="10" cols="25" placeholder="Vaša poruka"></textarea>
-                            
-                            <input class="btn btn-green-dark float-right" id="submit" type="submit" name="submit" value="Pošalji">
-                               
-                    	</fieldset>
-                    </form>
-                    
-                </div><!-- end .span9 -->
-            </div><!-- end .row -->
-            <div class="row">
-            	<div class="span4">
-                    <address>
-                    	<strong>Direktor</strong><br>
-						Knežević Veselin<br>
-                        mail veselin.knezevic@heintel.rs<br>
-                        tel 064-31-58-798<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Finansijski direktor</strong><br>
-                        Grujičić Ivan<br>
-                        mail ivan.grujicic@heintel.rs<br>
-                        tel 063-800-22-61<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Tehnički direktor</strong><br>
-                        Udovičić Sanja<br>
-                        mail sanja.udovicic@heintel.rs<br>
-                        tel 060-05-54-926<br>
-                    </address>
-                </div><!-- end .span4 -->
-            </div><!-- end .row -->
-            <div class="row">
             	<div class="span12">
                 	
-                    <!--div class="social-media text-center" style="margin-bottom:-20px;">
-                            
-                        <a href="#" class="facebook-icon social-icon">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="twitter-icon social-icon">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="pinterest-icon social-icon">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-                        <a href="#" class="googleplus-icon social-icon">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        
-                    </div-->
+                    <h3 class="headline">
+                    	<span>Zašto odabrati naše usluge?</span>
+                    </h3>
                     
                 </div><!-- end .span12 -->
             </div><!-- end .row -->
             
-            <!--div class="google-map" style="margin-bottom:-80px;">
-    
-                <div class="map" id="google-map"></div>
+            <div class="row">
+				<div class="span8">
+                	
+                    <p>Pružanje zdravstvenih usluga predstavlja odgovoran posao kao sa aspekta znanja medicinskog kadra, tako i sa aspekta opreme koja mora besprekorno raditi. Ovaj drugi deo prepustite nama – biće na obostrano zadovoljstvo.</p>
+                    
+                    <br>
+                    
+					<blockquote style="border-left-color:#8f9bb2;">
+                    	<p>Bavimo se prodajom visoko-kvalitetnih medicinskih proizvoda široke primene. </p>
+                    </blockquote>
+                    <blockquote style="border-left-color:#484f5e;">
+                    	<p>Mi organizujemo konferencije sa najpriznatijim predavačima</p>
+                    </blockquote>
+                    
+                    <blockquote style="border-left-color:#656d7d;">
+                    	<p>Vršimo učestale obuke i širimo znanje koje smo u svojili, za opšte dobro</p>
+                    </blockquote>
+                                        
+                </div><!-- end .span8 -->
+				<div class="span4">
+                    <div id="diagram"></div>
+                    <div class="get">
+                        <div class="arc">
+                            <span class="text">Kvalitetno</span>
+                            <input type="hidden" class="percent" value="79" />
+                            <input type="hidden" class="color" value="#535a6a" />
+                        </div><!-- end .arc -->  
+                        <div class="arc">
+                            <span class="text">Efikasno</span>
+                            <input type="hidden" class="percent" value="70" />
+                            <input type="hidden" class="color" value="#5a6171" />
+                        </div><!-- end .arc -->
+                        <div class="arc">
+                            <span class="text">Bezbedno</span>
+                            <input type="hidden" class="percent" value="75" />
+                            <input type="hidden" class="color" value="#656d7d" />
+                        </div><!-- end .arc -->
+                    </div><!-- end .get --> 
+                </div><!-- end span12 -->
+            </div><!-- end .row -->
+ 
+            <div class="box-3" style="padding:60px 0;">
+            	
+                <div class="row">
+                	<div class="span7">
+                        
+                        <img class="responsive-img" src="_content/services/540x425.png" alt="">
+                        
+                    </div><!-- end .span7 -->
+                    <div class="span5">
+                    
+                    	<br>
+                        <h3>Naše usluge obuhvataju:</h3>
+                        
+                        <br>
+						<ul class="circle">
+							<li>pružanje stručnih tehničkih i aplikacionih informacija kupcima pri odabiru medicinske opreme</li>
+							<li>kontinuiranih edukacija od strane naših principala kako za prodaju tako i za servis opreme)</li>
+							<li>brzu isporuku u oviru ugovorenih rokova</li>
+							<li>stručnu instalaciju opreme, obuku korsnika za rad sa aparatima do stepena stručne osposo bljenosti rukovanja novim uređajem</li>
+							<li>besplatne konsultacije vezane za korišćenje aparata nakon isporuk</li>
+							<li>brz odziv na eventualnu reklamaciju i kvalitetan servis u garantnom i vangarantnom roku</li>
+							<li>poštovanje želja kupaca kao naš primarni zadatak</li>
+						</ul>
+					<br>                        
+                        <br>
+                        
+                        <p class="last">
+                        	<a class="btn btn-green-light" href="novosti.php">Pogledajte <strong>novosti</strong></a>
+                        </p>
+                        
+                    </div><!-- end .span5 -->
+                </div><!-- end .row -->
                 
-                <div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-                <div class="overlay right"></div>
-                
-            </div><!-- end .google-map -->
-			<div class="google-map" style="margin-bottom:-80px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.987818820483!2d20.387129199999997!3d44.82181279999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6588952b2bc9%3A0x462c3326d7fada64!2zMTIg0J_QsNGA0YLQuNC30LDQvdGB0LrQtSDQsNCy0LjRmNCw0YbQuNGY0LUsINCR0LXQvtCz0YDQsNC0IDExMDAw!5e0!3m2!1ssr!2srs!4v1414490602725" width="1349" height="450" frameborder="0" style="border:0"></iframe>
-
-				<div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-		                <div class="overlay right"></div>
-			            </div><!-- end .google-map -->
+            </div><!-- end .box-3 -->
+            
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<br><br>
+
 		</div><!-- end #content -->
 		<div id="footer">
 			<footer></footer>
 		</div><!-- end #footer -->
+		
 	</div><!-- end #wrap -->
 
-			<!-- /// AngularJS ////////  -->
-	<script src="_layout/js/ng/angular.min.js"></script>	
-	<script src="_layout/js/ng/app.js"></script>
-	<!--////////////////////////////////////////-->
+
     <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
-  
+
     <!-- /// ViewPort ////////  -->
 	<script src="_layout/js/viewport/jquery.viewport.js"></script>
     
     <!-- /// Easing ////////  -->
 	<script src="_layout/js/easing/jquery.easing.1.3.js"></script>
-
+      <!-- /// SkillsDiagram ////////  -->
+    <script src="_layout/js/skillsdiagram/js/raphael.js"></script>
+    <script src="_layout/js/skillsdiagram/js/init.js"></script>
     <!-- /// SimplePlaceholder ////////  -->
 	<script src="_layout/js/simpleplaceholder/jquery.simpleplaceholder.js"></script>
 
@@ -277,5 +240,12 @@ $companyName="Heintel";
 	<!-- /// Custom JS ////////  -->
 	<script src="_layout/js/plugins.js"></script>	
 	<script src="_layout/js/scripts.js"></script>
+
+	
+	<!-- /// angularJS ////////  -->
+	<script src="_layout/js/ng/angular.min.js"></script>
+	<script src="_layout/js/ng/app.js"></script>
+	<!-- /// end angularJS ////////  -->
+
 </body>
 </html>

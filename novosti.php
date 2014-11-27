@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
-$pageName="Kontakt"; 
+$pageName="Novosti"; 
 $category=''; 
-$menuItem="kontakt"; 
+$menuItem="novosti"; 
 $product='';
 $companyName="Heintel";
 ?>
@@ -49,7 +49,6 @@ $companyName="Heintel";
 
     <!-- /// Modernizr ////////  -->
     <script src="_layout/js/modernizr-2.6.2.min.js"></script>
- 
 
 	    <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
@@ -76,6 +75,7 @@ $companyName="Heintel";
 	<div id="wrap">
 	<?php include 'template/h.php';?><!--header-->
 		<div id="content">
+		
 		<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			
             <div id="page-header">
@@ -91,140 +91,152 @@ $companyName="Heintel";
             </div><!-- end #page-header -->
             
             <div class="row">
-            	<div class="span3">
-                	
-                    <div class="icon-box-1">
-                               <h3>Budimo u kontaktu</h3>                                      	                     
-<p>Na ovom mestu možete pronaći kontakt podatke naših stručnih saradnika, koji će Vam sa zadovoljstvom pomoći savetom, svojim iskustvom, stručno-tehničkim podacima i ostalim informacijama kojima raspolažu, a Vama će biti od koristi.</p>
-                    
-                    <address>
-					<strong>Mi se nalazimo:</strong><br>
-                        Partizanske avijacije 12/9<br>
-                        11070 Beograd<br>
-						Srbija<br>
-                        <br>
-                        Tel/fax 011-21-66-313<br>
-                        mail office@heintel.rs
-                    </address>
-                </div><!-- end .icon-box-1 -->  
-                </div><!-- end .span3 -->
-                <div class="span9">
-                
-                	<h3>Pošaljite nam poruku</h3>
-                    
-                    <br>
-                	
-                    <form class="fixed" id="contact-form"  name="contact-form" method="post" action="/_layout/php/send.php"> 
-                        <fieldset>
-                            
-                            <div id="formstatus"></div>
-                         	
-                            <div class="row">
-                            	<div class="span3">
-                            		
-                                    <input id="name" type="text" name="name" value="" placeholder="Ime">
-								
-                                </div><!-- edd .span3 --> 
-                            	<div class="span3">
-                            	
-                                	<input id="email" type="text" name="email" value="" placeholder="E-mail">
-                            	
-                                </div><!-- edd .span3 --> 
-                                <div class="span3">
-                            	
-                                	<input id="subject" type="text" name="subject" value="" placeholder="Tematika" >
-                            	
-                                </div><!-- edd .span3 --> 
-                            </div><!-- end .row -->
-                            
-                            <textarea class="span9" id="message" name="message" rows="10" cols="25" placeholder="Vaša poruka"></textarea>
-                            
-                            <input class="btn btn-green-dark float-right" id="submit" type="submit" name="submit" value="Pošalji">
-                               
-                    	</fieldset>
-                    </form>
-                    
-                </div><!-- end .span9 -->
-            </div><!-- end .row -->
-            <div class="row">
-            	<div class="span4">
-                    <address>
-                    	<strong>Direktor</strong><br>
-						Knežević Veselin<br>
-                        mail veselin.knezevic@heintel.rs<br>
-                        tel 064-31-58-798<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Finansijski direktor</strong><br>
-                        Grujičić Ivan<br>
-                        mail ivan.grujicic@heintel.rs<br>
-                        tel 063-800-22-61<br>
-                    </address>
-                </div><!-- end .span4 -->
-				<div class="span4">
-                    <address>
-                    	<strong>Tehnički direktor</strong><br>
-                        Udovičić Sanja<br>
-                        mail sanja.udovicic@heintel.rs<br>
-                        tel 060-05-54-926<br>
-                    </address>
-                </div><!-- end .span4 -->
-            </div><!-- end .row -->
-            <div class="row">
             	<div class="span12">
                 	
-                    <!--div class="social-media text-center" style="margin-bottom:-20px;">
-                            
-                        <a href="#" class="facebook-icon social-icon">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="twitter-icon social-icon">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="pinterest-icon social-icon">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-                        <a href="#" class="googleplus-icon social-icon">
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        
-                    </div-->
-                    
+
+                    	<h3>Ovde pratite najnovija dešavanja u vezi obuka i predavanja koja organizujemo</h3>
+
+                    <br/><br/><br/>
                 </div><!-- end .span12 -->
+            </div><!-- en .row -->
+            
+            <div class="row">
+            	<div class="span8">
+
+                </div><!-- end .span8 -->
+                
             </div><!-- end .row -->
             
-            <!--div class="google-map" style="margin-bottom:-80px;">
-    
-                <div class="map" id="google-map"></div>
-                
-                <div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-                <div class="overlay right"></div>
-                
-            </div><!-- end .google-map -->
-			<div class="google-map" style="margin-bottom:-80px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.987818820483!2d20.387129199999997!3d44.82181279999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6588952b2bc9%3A0x462c3326d7fada64!2zMTIg0J_QsNGA0YLQuNC30LDQvdGB0LrQtSDQsNCy0LjRmNCw0YbQuNGY0LUsINCR0LXQvtCz0YDQsNC0IDExMDAw!5e0!3m2!1ssr!2srs!4v1414490602725" width="1349" height="450" frameborder="0" style="border:0"></iframe>
+            <div class="row">
+            	<div class="span8">
+                	
+                    <div class="blog-post">
+                    	
 
-				<div class="overlay top"></div>
-                <div class="overlay bottom"></div>
-                <div class="overlay left"></div>
-		                <div class="overlay right"></div>
-			            </div><!-- end .google-map -->
+
+                        <div class="date">
+                                20.11.2014
+                            </div><!-- end .date -->
+                        <div class="blog-post-preview fixed">
+                        	
+                            <img src="_content/index/partneri/heintel2.jpg" alt="">
+
+                            
+                            
+                        </div><!-- end .blog-post-preview -->
+                    	
+                        <p>Trenutno nema dešavanja </p>
+                        
+                            
+                    </div><!-- end .blog-post -->
+            
+            	</div><!-- end .span8 -->
+                <div class="span4">
+                    <div class="widget widget_categories">
+                       
+                        <h3 class="widget-title"><span>Pogledajte naše proizvode</span></h3>
+                    
+                        <ul>
+                            <li class="cat-item">
+                                <a href="biopsija.php" title="biopsija">Biopsija</a> 
+                            </li>
+                            <li class="cat-item">
+                                <a href="infuzija.php" title="infuzija">Infuzija</a> 
+                            </li>
+                            <li class="cat-item">
+                                <a href="maske.php" title="Maske">Maske</a> 
+                            </li>
+                            <li class="cat-item">
+                                <a href="seciva.php" title="Nozici i skalpeli">Nožići i skalpeli</a> 
+                            </li>
+                            <li class="cat-item">
+                                <a href="stetoskopi.php" title="Stetoskop">Stetoskop</a> 
+                            </li>
+							<li class="cat-item">
+                                <a href="drenazni-sistem.php" title="Urin kesa">Urin kese</a> 
+                            </li>
+                            <li class="cat-item">
+                                <a href="rukavice.php" title="Rukavice">Rukavice</a> 
+                            </li>
+
+                        </ul>
+                        
+                    </div><!-- end .widget_categories -->
+                    
+                    
+                </div><!-- end .span4 -->
+            </div>
+            
+            <div class="box-3">
+            	
+                <div class="row">
+                	<div class="span12">
+                    	
+                        <div id="testimonial-slider">
+                    	
+                            <ul class="slides">
+                                <li>
+                                
+                                	<div class="testimonial-2">
+                    	
+                                        <img src="_content/testimonial/167x167-1.png" alt="">
+                                        
+                                        <blockquote>
+                                            <p>Ljubazno osoblje, predivan ambijent i strućni predavaći su mi dočarali<br/> energiju koja vlada u kompaniji Heintel.<br/>Mislim da ljudi sa tom energijom zaista menjaju svet na bolje.</p>
+                                        </blockquote>
+                                        
+                                        <h5 class="text-right">
+                                            <strong>Jovana</strong>,
+                                            Farmaceut
+                                        </h5>
+                                        
+                                    </div><!-- end .testimonial-2 -->
+                                
+                                </li>
+                                <li>
+                                
+                                	<div class="testimonial-2">
+                    	
+                                        <img src="_content/testimonial/167x167-3.png" alt="">
+                                        
+                                        <blockquote>
+                                            <p>Na Heintel konferenciji sam saznala za mnoge proizvode koje često koristim<br/> u svakodnevnom životu. Moram priznati da su jako kvalitetni i veoma lako se koriste.</p>
+                                        </blockquote>
+                                        
+                                        <h5 class="text-right">
+                                            <strong>Dragana</strong>,
+                                            Majka i domaćica
+                                        </h5>
+                                        
+                                    </div><!-- end .testimonial-2 -->
+                                
+                                </li>
+                        	</ul>
+                    	
+                        </div><!-- end #testimonial-slider -->        
+                    
+                    </div><!-- end .span12 -->
+                </div><!-- end .row -->
+				</div><!-- end #box3 -->    
+            
+            
+            
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<br><br>
+
 		</div><!-- end #content -->
-		<div id="footer">
+				<div id="footer">	
 			<footer></footer>
 		</div><!-- end #footer -->
+		
 	</div><!-- end #wrap -->
 
-			<!-- /// AngularJS ////////  -->
-	<script src="_layout/js/ng/angular.min.js"></script>	
+
+
+  	<!-- /// AngularJS ////////  -->
+	<script src="_layout/js/ng/angular.min.js"></script>
 	<script src="_layout/js/ng/app.js"></script>
 	<!--////////////////////////////////////////-->
+
     <!-- /// jQuery ////////  -->
 	<script src="_layout/js/jquery-2.1.0.min.js"></script>
   
@@ -254,7 +266,6 @@ $companyName="Heintel";
    	<!-- /// Magnific Popup ////////  -->
 	<script src="_layout/js/magnificpopup/jquery.magnific-popup.min.js"></script>
     
-   
     <!-- /// Parallax ////////  -->
 	<script src="_layout/js/parallax/jquery.parallax.min.js"></script>
 
@@ -273,6 +284,7 @@ $companyName="Heintel";
     <!-- /// gMap ////////  -->
 	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 	<script src="_layout/js/gmap/jquery.gmap.min.js"></script>
+    
 
 	<!-- /// Custom JS ////////  -->
 	<script src="_layout/js/plugins.js"></script>	
