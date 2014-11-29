@@ -7,7 +7,7 @@ $companyName="Heintel";
 $crumb1="portfolio";
 $crumb1url="portfolio";
 $productName="Hirurške HSO Crystal";
-$category="Rukavice";
+$category="rukavice";
 ?>
 <html class="no-js">
 <head>

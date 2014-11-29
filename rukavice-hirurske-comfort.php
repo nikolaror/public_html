@@ -8,7 +8,7 @@ $companyName="Heintel";
 $crumb1="portfolio";
 $crumb1url="portfolio";
 $productName="Hirurške HSO Comfort Grip";
-$category="Rukavice";
+$category="rukavice";
 
 ?>
 <html class="no-js">

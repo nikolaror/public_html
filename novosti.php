@@ -119,7 +119,7 @@ $companyName="Heintel";
                             </div><!-- end .date -->
                         <div class="blog-post-preview fixed">
                         	
-                            <img src="_content/index/partneri/heintel2.jpg" alt="">
+                            <img src="_content/index/logo/180x55-01.png" alt="">
 
                             
                             

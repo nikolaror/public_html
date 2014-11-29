@@ -214,7 +214,7 @@ $companyName="Heintel";
 		                <div class="overlay right"></div>
 			            </div><!-- end .google-map -->
 		<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-<br><br>
+<br><br><br><br>
 		</div><!-- end #content -->
 		<div id="footer">
 			<footer></footer>

@@ -8,7 +8,7 @@ URL: http://www.bitrepository.com/
 
 /////////// Add your own email below ////////////////
 
-	define("WEBMASTER_EMAIL", 'dux2905@yahoo.com');
+	define("WEBMASTER_EMAIL", 'office@heintel.rs');
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 
@@ -44,18 +44,18 @@ URL: http://www.bitrepository.com/
 	
 		// Check name
 		if(!$name || $name == "Name")
-			$error .= 'Please enter your name.<br />';
+			$error .= 'Unesite Vaše ime.<br />';
 	
 		// Check email
 		if(!$email || $email == "Email")
-			$error .= 'Please enter an e-mail address.<br />';
+			$error .= 'Unesite Vašu email adresu.<br />';
 	
 		if($email && !ValidateEmail($email))
-			$error .= 'Please enter a valid e-mail address.<br />';
+			$error .= 'Unesite validnu email adresu.<br />';
 	
 		// Check message
 		if(!$message)
-			$error .= "Please enter your message. <br />";
+			$error .= "Unesite svoju poruku. <br />";
 	
 		if(!$error)
 		{

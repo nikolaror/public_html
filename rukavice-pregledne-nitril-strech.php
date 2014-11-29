@@ -7,7 +7,7 @@ $companyName="Heintel";
 $crumb1="portfolio";
 $crumb1url="portfolio";
 $productName="Pregledne HSO NITRIL STRETCH";
-$category="Rukavice";
+$category="rukavice";
 ?>
 <html class="no-js">
 <head>
