@@ -141,7 +141,7 @@ $companyName="Heintel";
                                 <a href="biopsija.php" title="biopsija">Biopsija</a> 
                             </li>
                             <li class="cat-item">
-                                <a href="infuzija.php" title="infuzija">Infuzija</a> 
+                                <a href="infuzija.php" title="infuzija">Infuzioni setovi</a> 
                             </li>
                             <li class="cat-item">
                                 <a href="maske.php" title="Maske">Maske</a> 
