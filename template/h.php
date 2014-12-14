@@ -66,8 +66,14 @@
 						<li <?php if ($menuItem=="index") echo " class=\"current\""; ?>>
                         	<a href="index.php">POČETAK</a>
 						</li>
+						<li <?php if ($menuItem=="o-nama") echo " class=\"current\""; ?>>
+                        	<a href="onama.php">O NAMA</a>
+						</li>
 						<li <?php if ($menuItem=="profil") echo " class=\"current\""; ?>>
                         	<a href="profil.php">PROFIL</a>
+						</li>
+						<li <?php if ($menuItem=="usluge") echo " class=\"current\""; ?>>
+                        	<a href="usluge.php">USLUGE</a>
 						</li>
 						<li <?php if(in_array($menuItem, ["portfolio","stetoskopi","infuzija","biopsija","drenazni-sistem","maske","rukavice","seciva"])) echo " class=\"current\""; ?>>
                         	<a href="portfolio.php">PORTFOLIO</a>
@@ -76,7 +82,7 @@
                                     <a href="stetoskopi.php">STETOSKOPI</a>
                                 </li>
 								<li>	
-                                    <a href="infuzija.php">INFUZIJA</a>
+                                    <a href="infuzija.php">INFUZIONI SETOVI</a>
                                 </li>
 								<li>
                                     <a href="biopsija.php">BIOPSIJA</a>
@@ -98,12 +104,6 @@
 						</li>
 						<li <?php if ($menuItem=="novosti") echo " class=\"current\""; ?>>
                         	<a href="novosti.php">NOVOSTI</a>
-						</li>
-						<li <?php if ($menuItem=="usluge") echo " class=\"current\""; ?>>
-                        	<a href="usluge.php">USLUGE</a>
-						</li>
-						<li <?php if ($menuItem=="o-nama") echo " class=\"current\""; ?>>
-                        	<a href="onama.php">O NAMA</a>
 						</li>
 						<li <?php if ($menuItem=="kontakt") echo " class=\"current\""; ?>>
                         	<a href="kontakt.php">KONTAKT</a>

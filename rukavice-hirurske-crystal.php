@@ -121,8 +121,8 @@ $category="rukavice";
                             <h2>HSO Crystal - Latex hirurške rukavice bez pudera</h2>
                     </div><!-- end .icon-box-1 -->
 <p>HSO Crystal hirurške rukavice su naš „ekspert za bezbednost“. Zbog izuzetno niskog nivoa latex proteina, gde hemijski ostatak teži nuli, smanjen je rizik od Latex-Tip I alergije. Takođe, umanjena je i opasnost od kontaktnog dermatitisa - Tip IV alergija</p>
-<p>Puder je izbegnut kod ovih hirurških rukavica. Nivo endotoksina je manji od 0,5 eu/ml, tako su apsolutno netoksične</p> 
-<p>Sa pH 7 rukavice su neutralne i u potpunosti odgovaraju koži korisnika. HSO Crystal rukavice su veoma elastične i izuzetno izdržljive. Zahvaljujući mikrostrukturalnoj površini i anatomskom obliku potpuno je bezbedno rukovanje instrumentima. I na kraju, svaka rukavica je testirana na kraju procesa proizvodnje</p>
+<p>Puder je izbegnut kod ovih hirurških rukavica. Nivo endotoksina je manji od 0,5 eu/ml, tako da su apsolutno netoksične</p> 
+<p>Sa pH 7 rukavice su neutralne i u potpunosti odgovaraju koži korisnika. HSO Crystal rukavice su veoma elastične i izuzetno izdržljive. Zahvaljujući mikrostrukturalnoj površini i anatomskom obliku potpuno je bezbedno rukovanje instrumentima. Svaka rukavica je testirana na kraju procesa proizvodnje</p>
 
 
                 </div><!-- end .span6 -->

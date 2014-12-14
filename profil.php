@@ -117,7 +117,7 @@ $companyName="Heintel";
                             </a>
                 
                             <div class="toggle-item-content fixed">
-HEINTEL posvećeno i odgovorno štiti životnu sredinu. Naše razumevanje ekonomije su u skladu sa propisima zaštite životnog okruženja. Čak i pri izboru naših dobavljača i njihovih sirovina za naše proizvode, obraćamo pažnju na očuvanje resursa i to u svim fazama proizvodnje.
+HEINTEL posvećeno i odgovorno štiti životnu sredinu. Naše razumevanje ekonomije je u skladu sa propisima zaštite životnog okruženja. Čak i pri izboru naših dobavljača i njihovih sirovina za naše proizvode, obraćamo pažnju na očuvanje resursa i to u svim fazama proizvodnje.
 
                             </div><!-- end .toggle-item-content -->
                             
@@ -133,8 +133,8 @@ HEINTEL posvećeno i odgovorno štiti životnu sredinu. Naše razumevanje ekonom
                 
                             <div class="toggle-item-content fixed">
 "Heintel medicinska tehnologija" finansira se sopstvenim pogonom! Počeli smo kao Austrijski porodični biznis i  posvećeni smo poboljšanju nezavisnosti I atraktivnosti u čitavoj Evropi. Mi reinvestiramo naš poslovni uspeh samo u sopstvenom preduzeću.  
-Našim partnerima nudimo razvoj i veću bezbednost pacijenta. Uspeh se može postići radeći zajedno sa kupcem. Naša fleksibilna korporativna struktura daje nam mogućnost da smo što bliži kupcu. Tako pravimo značajan doprinos regionalnom I stalnom razvoju zdravstvenog sistema. 
-Održivi razvoj u istoriji Heintel medicinse tehnike traje već skoro čitav vek. Tradicija nas i obavezuje da vrednosti prebacujemo sa generacije na generaciju.
+Našim partnerima nudimo razvoj i veću bezbednost pacijenta. Uspeh se može postići radeći zajedno sa kupcem. Naša fleksibilna korporativna struktura daje nam mogućnost da smo što bliži kupcu. Tako pravimo značajan doprinos regionalnom i stalnom razvoju zdravstvenog sistema. 
+Održivi razvoj u istoriji Heintel medicinske tehnike traje već skoro čitav vek. Tradicija nas i obavezuje da vrednosti prebacujemo sa generacije na generaciju.
                             </div><!-- end .toggle-item-content -->
                             
                         </div><!-- end .toggle-item -->                        

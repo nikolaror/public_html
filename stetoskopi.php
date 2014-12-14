@@ -132,9 +132,9 @@ $product3url="stetoskopi-jednokratni.php";
                     <ul class="circle">
                     	<li>napravljeni od nerđajućeg čelika</li>
                         <li>imaju veoma dobre performanse i izuzetnu trajnost</li>
-                        <li>Odlične akustičke osobine stetoskopu daje veoma osetljiva membrana</li>
-						<li>Ultrasenzitivna dijafragma za veće pojačanje i izoštravanje zvuka</li>
-						<li>Dostupni u različitim bojama - zelena, plava, žuta, crvena, crna</li>
+                        <li>odlične akustičke osobine stetoskopu daje veoma osetljiva membrana</li>
+						<li>ultrasenzitivna dijafragma za veće pojačanje i izoštravanje zvuka</li>
+						<li>dostupni u različitim bojama - zelena, plava, žuta, crvena, crna</li>
                     </ul>
 
                                                    <div class="row">

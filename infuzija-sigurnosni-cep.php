@@ -123,10 +123,10 @@ $productName="Sigurnosni čepovi";
 <p>HSO-Kombistofen je univerzalni sigurnosni čep koji je idealno rešenje za sve vrste priključaka, Luer- i
  Luer-Lock-konektori</p>
                     <ul class="circle">
-						<li>Sterilni</li>
-						<li>Pojedinačno pakovani</li>
+						<li>sterilni</li>
+						<li>pojedinačno pakovani</li>
 						<li>PVC i  DEHP-free</li>
-						<li>Jednostavno rukovanje</li>
+						<li>jednostavno rukovanje</li>
 						<li>PVC- i DEHP-free</li>
 						<li>komercijalno pakovanje sadrži 100 pojedinačno upakovanih čepova</li>
                     </ul>

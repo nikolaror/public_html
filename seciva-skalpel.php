@@ -113,7 +113,7 @@ $category="nožići i skalpeli";
                 	
                 	<div class="icon-box-1">                        
                             <h2>HSO SKALPELI</h2>
-                            <p>Svi HSO Skalpel-noževi napravljeni su od Švedskog  nerđajućeg čelika. <br/>
+                            <p>Svi HSO Skalpel-noževi napravljeni su od švedskog  nerđajućeg čelika. <br/>
 Plastične ručke/držači su ergonomski dizajnirani i imaju metričku skalu.</p>
                             
                     </div><!-- end .icon-box-1 -->

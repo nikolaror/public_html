@@ -147,80 +147,8 @@ Posedujemo veliki spektar profesionalnih usluga i proizvoda!
                             
                         </li>
                         <!--li data-transition="fade">
-                        
-                        	<img src="_content/index/slider/1920x547-2.jpg" alt="">
-                            
-                            <div class="caption bg fade"
-                                data-x="0" 
-                                data-y="0"
-                                data-speed="700" 
-                                data-start="2000" 
-                                data-easing="easeOutBack">
-                            </div>
-
-                            <div class="caption sub-title sft"
-                                data-x="50"  
-                                data-y="70" 
-                                data-speed="700" 
-                                data-start="2100" 
-                                data-easing="easeOutBack">
-                                Lorem ipsum <strong>dolor sit</strong> amet.
-                            </div>
-                            
-                            <div class="caption text sft"
-                                data-x="50"  
-                                data-y="120" 
-                                data-speed="700" 
-                                data-start="2400" 
-                                data-easing="easeOutBack"
-                                style="color:#474e5d;">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit pharetra<br> 
-                                    urna, at pharetra nisl vehicula lacinia phasellus suscipit vulputate<br> 
-                                    felis nulla ac aliquet lorem etiam mauris lacus.
-                            </div>
-                            ;
-                            <div class="caption sfl" 
-                                data-x="50" 
-                                data-y="235" 
-                                data-speed="700"  
-                                data-start="3100" 
-                                data-easing="easeOutBack">
-                                <img src="_content/index/slider/slide-2.png" alt="">
-                            </div>
-                            
-                            <div class="caption text sfb"
-                                data-x="250"  
-                                data-y="255" 
-                                data-speed="700" 
-                                data-start="3600" 
-                                data-easing="easeOutBack">
-                                <ul class="square">
-                                    <li>Sed ut perspiciatis unde omnis </li>
-                                    <li>Lorem ipsum dolor sit consectetur</li>
-                                    <li>Donec suscipit erat sed nisl adipiscin</li>
-                                    <li>Nunc eu felis vel leo fermentum </li>
-                                    <li>Integer commodo felis mollis purus</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="caption sfb"
-                                data-x="250"  
-                                data-y="455" 
-                                data-speed="700" 
-                                data-start="3800" 
-                                data-easing="easeOutBack">
-                                <a class="btn btn-black" href="#">read more</a>
-                            </div>
-
-                            <div class="caption fade" 
-                                data-x="600" 
-                                data-y="0" 
-                                data-speed="700"  
-                                data-start="1600" 
-                                data-easing="easeOutBack">
-                                <img src="_content/index/slider/slide-person-2.png" alt="">
-                            </div>
-                                
+						<!-- mama safe slika-->
+                        	<img src="_content/index/slider/1920x547-2.jpg" alt="">                                
                         </li-->
                         <li data-transition="fade">
                         
@@ -357,7 +285,7 @@ Mi ćemo biti <span>kompetetan savetnik i partner</span><br> u rešavanju vaših
                             	<p>HEINTEL VREDNOSTI</p>
                             </h3>
                             
-                            <p>Vedar duh naših zaposlenih i uživanje u radu jedni sa drugima i sa našim klijentima, je jedan od najvećih vrednost. Bez obzira na jasno postavljene nadležnosti i odgovornosti mi otvoreno razgovaramo o čvrst smo oslonac u poslovanju.</p>
+                            <p>Vedar duh naših zaposlenih i uživanje u radu jedni sa drugima i sa našim klijentima, je jedan od najvećih vrednost. Bez obzira na jasno postavljene nadležnosti i odgovornosti mi otvoreno razgovaramo razgovaramo o  svemu i čvrst smo oslonac u poslovanju.</p>
                             
                         </div><!-- end .icon-box-content -->
                         

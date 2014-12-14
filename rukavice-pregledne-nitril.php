@@ -120,7 +120,7 @@ $category="rukavice";
                                          
                             <h2>NITRIL-RUKAVICE PUDERFREE/ NESTERILNE</h2>
                     </div><!-- end .icon-box-1 -->
-<p>HSO NITRIL rukavice napravljene od 100% nitrila, bez pudera i lateksa, pa je pojava alergije je smanjena na najmanju moguću meru. Inovativna formula čini da rukavica bude meka na dodir i da dobro prijanja, a opet da bude otpornija na probijanje od vinilnih rukavica i većine rukavica od prirodnog lateksa.Prekrivene teksturom u predelu prsta.</p>
+<p>HSO NITRIL rukavice su napravljene od 100% nitrila, bez pudera i lateksa, pa je pojava alergije smanjena na najmanju moguću meru. Inovativna formula čini da rukavica bude meka na dodir i da dobro prijanja, a opet da bude otpornija na probijanje od vinilnih rukavica i većine rukavica od prirodnog lateksa. Prekrivene teksturom u predelu prsta.</p>
 
 
                 </div><!-- end .span6 -->

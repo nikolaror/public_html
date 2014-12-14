@@ -116,19 +116,19 @@ $product1url="biopsija-forsepsi.php";
                 	
                     
 <h2>Biopsija</h2>
-<p>Forcepsi za biopsiju su sigurni i ekonomični proizvodi, namenjeni za jednokratnu upotrebu. Različitim vrstama klješta omogućavaju nežno i efikasno vađenje uzoraka određenih tkiva.</p><p>Dostupni su forcepsi za :</p>
+<p>Forcepsi za biopsiju su sigurni i ekonomični proizvodi, namenjeni za jednokratnu upotrebu. Različitim vrstama klešta omogućavaju nežno i efikasno vađenje uzoraka određenih tkiva.</p><p>Dostupni su forcepsi za :</p>
                     <ul class="circle">
                     	<li>bronhoskopiju</li>
                         <li>kolonoskopiju</li>
                         <li>gastroskopiju</li>
                     </ul>
 					<p>
-HSO  forcepsi za biopsiju su ekonomični i sigurni proizvodi za upotrebu klešta za biopsiju. Različitim klještima omogućavaju nežno i efikasno vađenje određenih uzoraka tkiva. HSO forcepsi za biopsiju su za jednokratnu upotrebu i sigurna alternativa za višekratne setove.
+HSO  forcepsi za biopsiju su ekonomični i sigurni proizvodi za upotrebu klešta za biopsiju. Različitim kleštima omogućavaju nežno i efikasno vađenje određenih uzoraka tkiva. HSO forcepsi za biopsiju su za jednokratnu upotrebu i sigurna alternativa za višekratne setove.
 <br/><br/>
 HSO jednokratni setovi za biopsiju proizvedeni su prema visokim Evropskim standardima. Korišćenjem Metal-Injection–Modeling tehnologije, vrši se livenje sa metalnim prahom što daje izuzetnu lakoću i preciznost savitljivim  delovima seta, čime je efikasnost i bezbednost procedure zagarantovana.
 <br/><br/>
-Visoko-kvalitetnom obradom HSO forcepsi za biopsiju se jednostavno i lagano uvode što olakšava process uzorkovanja tkiva.   .
-HSO forcepsi za biopsiju dostupni su za bronhoskopiju, kolonoskopiju i gastroskopiju. Takođe, izrađuju se sa i bez prevlake .
+Visoko-kvalitetnom obradom HSO forcepsi za biopsiju se jednostavno i lagano uvode što olakšava proces uzorkovanja tkiva.
+HSO forcepsi za biopsiju dostupni su za bronhoskopiju, kolonoskopiju i gastroskopiju. Takođe, izrađuju se sa i bez prevlake.
 </p>
                                                    <div class="row">
 			                	<div class="icon-box-1">

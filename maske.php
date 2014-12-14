@@ -117,10 +117,10 @@ $crumb1url="portfolio";
 <p>HSO maske su prozračne i veoma prijatne za kožu. Predstavljaju pravo rešenje za svakog korisnika i 
 ujedno lagana i fleksibilna kopča preko nosa čini HSO masku veoma udobnom za nošenje.</p>
 <p>HSO maske se izrađuju u dve verzije: sa vrpcama za vezivanje i sa gumicama koje imaju dodatno meke tapacirane delove u predelu uha.</p><p>Takođe su dostupne obe verzije za korisnike koji nose naočare, providne HSO maske. Vuna sa kojom je obložena unutrašnja strana maske sprečava magljenje sočiva i naočara.</p>
-<p>SO maske imaju izuzetnu mogućnost bakterijske 
+<p>HSO maske imaju izuzetnu mogućnost bakterijske 
 filtracije. Što manje bakterije prodiru u oba smera veća je efikasnost (BFE).</p>
 <p>Troslojne HSO maske pružaju odlični zaštitu od infekcija kako za Vas tako i za Vaše pacijente</p>
-<p>TEfikasnost bakterijske filtracije BFE je 99,99% čime HSO maska ispunjava sve zahteve standarda DIN EN 14 683</p>
+<p>Efikasnost bakterijske filtracije BFE je 99,99% čime HSO maska ispunjava sve zahteve standarda DIN EN 14 683</p>
                                                    <div class="row">
 			                	<div class="icon-box-1">
                                     

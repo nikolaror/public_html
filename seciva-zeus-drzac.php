@@ -117,7 +117,7 @@ $crumb3="ZEUS BEZBEDNOSNI SKALPEL DRŽAČI";
                 	<div class="icon-box-1">                        
                             <h2>ZEUS BEZBEDNOSNI SKALPEL DRŽAČI</h2>
                             <p>Prema  Direktivi 2010/32/EU „prevencija povreda od oštrih predmeta u zdravstvu“, napravili smo HSO SAFETY-Skalpele i bezbednosne skalpel ručke  ( N° 3 & N° 4). ZEUS scalpel ručke izrađene su od nerđajućeg čelika sa završnom Teflon-obradom.<br/> Koriste se kao višekratne ručke nakon sterilizacije.
-Rizik od povreda pri rukovanju je sveden na minimum zahvaljujući uvlačećem metalnom poklopcu koji lako pokriva sečivo koje se lako navlači, a i jednostavno  otključava. <br/>Pored dodatnih mera bezbednosti ZEUS ručke imaju još jednu novinu u bezbednosti, a to je poluga koja omogućava montiranje scalpel nožića bez direktnog kontakta sa korisnikom, čime je rizik od povrede sveden na minimum. </p>
+Rizik od povreda pri rukovanju je sveden na minimum zahvaljujući uvlačećem metalnom poklopcu koji pokriva sečivo i lako se navlači, a jednostavno otključava.<br/>Pored dodatnih mera bezbednosti ZEUS ručke imaju još jednu novinu u bezbednosti, a to je poluga koja omogućava montiranje scalpel nožića bez direktnog kontakta sa korisnikom, čime je rizik od povrede sveden na minimum. </p>
                             
                     </div><!-- end .icon-box-1 -->
 

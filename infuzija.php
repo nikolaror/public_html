@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 $pageName="Infuzija"; 
-$category="infuzija"; 
+$category="infuzioni setovi"; 
 $menuItem="infuzija"; 
 $product='';
 $companyName="Heintel";
@@ -108,7 +108,7 @@ $crumb1url="portfolio";
                     </div><!-- end .team-member -->
                 </div><!-- end .span4 -->
                 <div class="span8">
-				<h2>Infuzija</h2>   
+				<h2>Infuzioni setovi</h2>   
                 	<div id="tab-1">
                         <ul class="tabs-menu fixed">
                             <li>

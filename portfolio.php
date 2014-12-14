@@ -147,7 +147,7 @@ $categoryRukavice="rukavice";
                 	
                     <div class="blog-post">	
                         <h4>
-                            <a href="<?php echo $categoryInfuzija.'.php';?>">Infuzija</a>
+                            <a href="<?php echo $categoryInfuzija.'.php';?>">Infuzioni setovi</a>
                         </h4>                        
                         <div class="blog-post-preview fixed">	
                             <img src="_content/portfolio/infuzija2.png" alt="">                            

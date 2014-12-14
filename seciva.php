@@ -152,9 +152,9 @@ $product6url="seciva-zeus-drzac.php";
                     <ul class="circle">
                     	<li>napravljeni od nerđajućeg čelika</li>
                         <li>imaju veoma dobre performanse i izuzetnu trajnost</li>
-                        <li>Odlične akustičke osobine stetoskopu daje veoma osetljiva membrana</li>
-						<li>Ultrasenzitivna dijafragma za veće pojačanje i izoštravanje zvuka</li>
-						<li>Dostupni u različitim bojama - zelena, plava, žuta, crvena, crna</li>
+                        <li>dostupni u svim dimenzijama</li>
+						<li>ergonomska drška</li>
+						<li>SAFETY mehanizam</li>
                     </ul>
 
                                                    <div class="row">

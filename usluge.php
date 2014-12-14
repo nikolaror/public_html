@@ -103,7 +103,7 @@ $companyName="Heintel";
             <div class="row">
 				<div class="span8">
                 	
-                    <p>Pružanje zdravstvenih usluga predstavlja odgovoran posao kao sa aspekta znanja medicinskog kadra, tako i sa aspekta opreme koja mora besprekorno raditi. Ovaj drugi deo prepustite nama – biće na obostrano zadovoljstvo.</p>
+                    <p>Pružanje zdravstvenih usluga predstavlja odgovoran posao kako sa aspekta znanja medicinskog kadra, tako i sa aspekta opreme koja mora besprekorno raditi. Ovaj drugi deo prepustite nama – biće na obostrano zadovoljstvo.</p>
                     
                     <br>
                     
@@ -115,7 +115,7 @@ $companyName="Heintel";
                     </blockquote>
                     
                     <blockquote style="border-left-color:#656d7d;">
-                    	<p>Vršimo učestale obuke i širimo znanje koje smo u svojili, za opšte dobro</p>
+                    	<p>Vršimo učestale obuke i širimo znanje koje smo u usvojili, za opšte dobro</p>
                     </blockquote>
                                         
                 </div><!-- end .span8 -->
@@ -157,10 +157,10 @@ $companyName="Heintel";
                         <br>
 						<ul class="circle">
 							<li>pružanje stručnih tehničkih i aplikacionih informacija kupcima pri odabiru medicinske opreme</li>
-							<li>kontinuiranih edukacija od strane naših principala kako za prodaju tako i za servis opreme)</li>
-							<li>brzu isporuku u oviru ugovorenih rokova</li>
-							<li>stručnu instalaciju opreme, obuku korsnika za rad sa aparatima do stepena stručne osposo bljenosti rukovanja novim uređajem</li>
-							<li>besplatne konsultacije vezane za korišćenje aparata nakon isporuk</li>
+							<li>kontinuirane edukacije od strane naših principala kako za prodaju tako i za servis opreme</li>
+							<li>brzu isporuku u okviru ugovorenih rokova</li>
+							<li>stručnu instalaciju opreme, obuku korsnika za rad sa aparatima do stepena stručne osposobljenosti rukovanja novim uređajem</li>
+							<li>besplatne konsultacije vezane za korišćenje aparata nakon isporuke</li>
 							<li>brz odziv na eventualnu reklamaciju i kvalitetan servis u garantnom i vangarantnom roku</li>
 							<li>poštovanje želja kupaca kao naš primarni zadatak</li>
 						</ul>
