@@ -94,43 +94,33 @@ $companyName="Heintel";
             	<div class="span12">
                 	
 
-                    	<h3>Ovde pratite najnovija dešavanja u vezi obuka i predavanja koja organizujemo</h3>
+                    	<p>Heintel podžava i omogućava kontinuiranu medicinsku edukaciju svih zdravstvenih radnika i zdravstveno-vaspitni rad sa pacijentima tokom čitave godine. Edukacija se obavlja prema planu i programu stručnih sastanaka i kurseva koji su akreditovani od strane Zdravstvenog saveta Ministarstva zdravlja Srbije </p>
 
                     <br/><br/><br/>
                 </div><!-- end .span12 -->
             </div><!-- en .row -->
-            
             <div class="row">
             	<div class="span8">
-
-                </div><!-- end .span8 -->
-                
-            </div><!-- end .row -->
-            
-            <div class="row">
-            	<div class="span8">
-                	
-                    <div class="blog-post">
-                    	
-
-
-                        <div class="date">
-                                20.11.2014
-                            </div><!-- end .date -->
-                        <div class="blog-post-preview fixed">
-                        	
-                            <img src="_content/index/logo/180x55-01.png" alt="">
-
-                            
-                            
-                        </div><!-- end .blog-post-preview -->
-                    	
-                        <p>Trenutno nema dešavanja </p>
+				<div class="headline">Prvo predavanje</div>
+					<div class="blog-post">
+                        <h4>&quot;KVALITETNO, EFIKASNO, BEZBEDNO&quot;</h4>
                         
+                        <p>Domaći kurs prve kategorije akreditovan u Zdravstvenom savetu Srbije odlukom broj 153-02-3751/2014-01 u oktobarskom roku akreditacije. Redni broj D-1-2193/14. Program se realizuje do 17.11.2015.</p>
+						<h3>Predavači</h3><br/>             
+                            <p><strong>Udovičić Sanja,</strong> mr.ph specijalista Farmaceutske zdravstvene zaštite</p>
+							<p><strong>Bogdanović Olja,</strong> profesor zdravstvene nege</p>
+                        <h3>Broj bodova</h3><br/>
                             
-                    </div><!-- end .blog-post -->
-            
-            	</div><!-- end .span8 -->
+						<p> Za slušaoca je <strong>6</strong></p>
+						<p> Za predavače je <strong>12</strong> po predavanju</p>
+
+                        <h3>Ciljna grupa</h3><br/>
+						<p> Svi zdravstveni radnici</p>
+						
+                        <h3>Kontakt osoba</h3><br/>
+						<p> <strong>Udovičić Sanja</strong>, tel.  061 260 4555, email  <a href = "mailto:office@heintel.rs">office@heintel.rs</a></p>
+                    </div>
+                </div><!-- end .span8 -->
                 <div class="span4">
                     <div class="widget widget_categories">
                        
