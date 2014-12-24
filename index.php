@@ -146,10 +146,11 @@ Posedujemo veliki spektar profesionalnih usluga i proizvoda!
                             </div>
                             
                         </li>
-                        <!--li data-transition="fade">
-						<!-- mama safe slika-->
-                        	<img src="_content/index/slider/1920x547-2.jpg" alt="">                                
-                        </li-->
+                        						<!-- mama safe slika-->
+                        <!--<li data-transition="fade">
+
+                        	<img src="_content/index/slider/mamasafeslider.png" alt="">                                
+                        </li>-->
                         <li data-transition="fade">
                         
                         	<img src="_content/index/slider/1920x547-3.jpg" alt="">

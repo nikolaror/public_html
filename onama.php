@@ -127,11 +127,11 @@ $companyName="Heintel";
                         <div class="row">
                         	<div class="span12">
                             	
-                                <div class="slidetext text-center" style="bottom:80px;left:20%">
+                                <div class="slidetext text-center" style="bottom:80px;left:30%">
                                 	
-                                    <h1>Pritisnite <strong>DUGME</strong></h1>
+                                    <h1><strong>Pogledajte</strong></h1>
                                     
-                                   <p>Pogledajte našu video prezentaciju</p>
+                                   <p>našu video prezentaciju</p>
                                     
                                     <br>
                                     
